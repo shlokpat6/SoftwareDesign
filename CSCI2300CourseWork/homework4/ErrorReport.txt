@@ -1,0 +1,5 @@
+1. checkin(String id) - should return false if called after book is added
+2. checkin(String id) - should return false if called consecutively
+3. checkout(String id) - should return false if called consecutively
+4. search(String id) - should return an arrayList of size 1 when called on a catalog with 1 book with the a last name that matches the search term
+5. remove(String id) - should return false when called on a book that is not in the catalog
